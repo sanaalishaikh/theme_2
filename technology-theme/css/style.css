@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+}
+
+/* header */
+
+body,
+html {
+    overflow-x: hidden;
+}
+
+
+.header-container {
+    background-color: white;
+
+}
+
+
+.nav-item .nav-link {
+    color: black;
+
+}
+
+.nav-item .nav-link:hover {
+    background-color: gainsboro;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.btn {
+    background-color: blue;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin-top: 20px;
+
+}
+
+.btn:hover {
+    background-color: rgba(0, 0, 255, 0.563);
+}
+
+.quote {
+    background-color: blue;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin: 15px;
+}
+
+
+
+
+/* cards css */
+
+.card-box {
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+}
+
+.card-box:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+.counter {
+    font-size: 3rem;
+    font-weight: bold;
+    color: blue;
+}
+
+/* footer css */
+
+
+/* social icons */
+
+.social-icons {
+    font-size: 1.2rem;
+}
+
+.social-icons i {
+
+    color: #f5f5f5;
+}
+
+.social-icons i:hover {
+    background-color: gray;
+    cursor: pointer;
+    border: 2px solid gray;
+    border-radius: 10%;
+}
+
+.icon-span {
+    border-radius: 20px;
+}
+
+
+
+.icon-span:hover {
+    background-color: rgba(0, 0, 255, 0.505);
+}
+
+.listed-items {
+    margin-bottom: 10px;
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 20px;
+}
+
+
+.listed-items a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.listed-items .all-items {
+    margin-bottom: 20px;
+
+}
+
+.listed-items .all-items a:hover {
+    color: peru;
+    cursor: pointer;
+}
+
+.form-input {
+    cursor: pointer;
+    width: 250px;
+
+}
+
+
+/* about css */
+
+.image-container {
+    background-image: url(../images/breadcrumb.png);
+    background-position: center !important;
+    background-size: cover !important;
+    padding: 50px 50px;
+    height: 70vh;
+    position: relative;
+}
+
+
+.contact {
+    position: relative;
+    height: 70vh; /* Adjust height as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Ensures no content spills outside */
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 255, 0.7), rgba(0, 0, 255, 0.3));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+/* hero section */
+
+.icon-container {
+    max-width: 250px;
+    width: 100%;
+}
+
+.icon-circle {
+    width: 130px;
+    height: 130px;
+    background-color: rgba(128, 128, 128, 0.184);
+    border-radius: 50%;
+
+}
+
+.icon-circle img {
+    max-width: 60%;
+    height: auto;
+}
+
+.text-section {
+    padding: 10px 10px 10px 10px;
+
+}
+
+
+.form-control {
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    background: transparent;
+    padding: 10px;
+}
